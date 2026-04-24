@@ -3,6 +3,18 @@
 This code was provided to MODAQ2 by Advanced Navigation. Their current ros2 driver does not work with ethernet instruments. https://github.com/advanced-navigation
 
 
+## Build Status
+
+| Platform | Architecture | ROS 2 Distro | Status |
+|----------|-------------|--------------|--------|
+| Ubuntu 22.04 | x64   | Humble | [![Ubuntu 22.04 x64](https://github.com/MODAQ2/adnav_gnss_compass/actions/workflows/build-ubuntu22-x64.yml/badge.svg)](https://github.com/MODAQ2/adnav_gnss_compass/actions/workflows/build-ubuntu22-x64.yml) |
+| Ubuntu 22.04 | ARM64 | Humble | [![Ubuntu 22.04 ARM64](https://github.com/MODAQ2/adnav_gnss_compass/actions/workflows/build-ubuntu22-arm64.yml/badge.svg)](https://github.com/MODAQ2/adnav_gnss_compass/actions/workflows/build-ubuntu22-arm64.yml) |
+| Ubuntu 24.04 | x64   | Jazzy  | [![Ubuntu 24.04 x64](https://github.com/MODAQ2/adnav_gnss_compass/actions/workflows/build-ubuntu24-x64.yml/badge.svg)](https://github.com/MODAQ2/adnav_gnss_compass/actions/workflows/build-ubuntu24-x64.yml) |
+| Ubuntu 24.04 | ARM64 | Jazzy  | [![Ubuntu 24.04 ARM64](https://github.com/MODAQ2/adnav_gnss_compass/actions/workflows/build-ubuntu24-arm64.yml/badge.svg)](https://github.com/MODAQ2/adnav_gnss_compass/actions/workflows/build-ubuntu24-arm64.yml) |
+
+
+
+
 ## Introduction
 
 This is an example using the Advanced Navigation SDK to create a ROS2 driver that reads and decodes the Advanced Navigation Packet Protocol (ANPP) Packets and publishes the information as ROS topics / messages. 
