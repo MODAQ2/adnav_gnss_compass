@@ -18,9 +18,9 @@ adnav_node:
 
     ################ IP Communication Parameters
     # IP of the Advanced Navigation Device. 
-    ip_address: "192.168.4.10" # only required if comm_select = 1
+    ip_address: "10.10.59.116" # only required if comm_select = 1
     # Port to communicate over. 
-    port: 16724
+    port: 9090
 
     # This is the minimum period for reading and publishing data.
     # Warning on some systems this is performance limited.  

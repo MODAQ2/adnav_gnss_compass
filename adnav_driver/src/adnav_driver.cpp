@@ -1669,9 +1669,9 @@ void Driver::systemStateRosDecoder(an_packet_t* an_packet) {
 			if (system_state_packet.system_status.b.gnss_antenna_fault) {
 				ss << "\n14. GNSS ANTENNA FAULT.";
 			}
-			if (system_state_packet.system_status.b.serial_port_overflow_alarm) {
-				ss << "\n15. SERIAL PORT DATA OVERFLOW.";
-			}
+			// if (system_state_packet.system_status.b.serial_port_overflow_alarm) {
+			// 	ss << "\n15. SERIAL PORT DATA OVERFLOW.";
+			// }
 
 			// If an error occured log it
 			if(!ss.str().empty()){
